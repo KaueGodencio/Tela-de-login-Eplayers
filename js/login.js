@@ -9,7 +9,7 @@ $(document).ready(function (){
     let usuario = document.getElementById('usuario').value;
     let senha = document.getElementById('senha').value;
     
-    if(senha.trim () =='' || senha.trim() =='' ){
+    if(usuario.trim () =='' || senha.trim() =='' ){
         alert('Por favor preencher todos os campos.')
     }else{
         alert('Você preencheu corretamente.'); }
